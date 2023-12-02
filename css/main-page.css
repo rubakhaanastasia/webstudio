@@ -28,3 +28,49 @@
   line-height: normal;
   letter-spacing: 0.28px;
  } 
+   .header-telephone {
+ color: #757575;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+} 
+.hero-title {
+  color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 44px;
+font-style: normal;
+font-weight: 900;
+line-height: 60px; /* 136.364% */
+letter-spacing: 2.64px;
+text-transform: uppercase;
+} 
+.header-logo {
+color: #000;
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
