@@ -1,12 +1,17 @@
 :root {
-    --accent-color: #2196F3;
-   --title-color: #212121;
-   --text-color: #757575;
-   --aditional-color: #FFFFFF;
-   --logo-color: #000000;
+  --accent-color: #2196F3;
+  --title-color: #212121;
+  --text-color: #757575;
+  --aditional-color: #FFFFFF;
+  --logo-color: #000000;
 
- }
- .header-logo {
+
+
+
+
+}
+
+.header-logo-color {
   color: #2196F3;
   font-family: Raleway;
   font-size: 26px;
@@ -14,12 +19,13 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
- }
+}
 
- .logo-color {
-  color: #2196F3;
- }
- .header-link {
+.header-logo-color {
+  color: #000;
+} 
+
+.header-link {
   color: #212121;
   font-family: Roboto;
   font-size: 14px;
@@ -27,50 +33,35 @@
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.28px;
- } 
-   .header-telephone {
- color: #757575;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: 0.28px;
-} 
-.hero-title {
-  color: #FFF;
-text-align: center;
-font-family: Roboto;
-font-size: 44px;
-font-style: normal;
-font-weight: 900;
-line-height: 60px; /* 136.364% */
-letter-spacing: 2.64px;
-text-transform: uppercase;
-} 
-.header-logo {
-color: #000;
-font-family: Raleway;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.78px;
 }
 
+.header-telephone {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.48px;
+}
 
+.hero-title {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px;
+  /* 136.364% */
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.header-logo {
+  color: #000;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
