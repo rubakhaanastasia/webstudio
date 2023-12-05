@@ -1,8 +1,130 @@
 :root {
-    --accent-color: #2196F3;
-   --title-color: #212121;
-   --text-color: #757575;
-   --aditional-color: #FFFFFF;
-   --logo-color: #000000;
+  --accent-color: #2196F3;
+  --title-color: #212121;
+  --text-color: #757575;
+  --aditional-color: #FFFFFF;
+  --logo-color: #000000;
 
- }
+}
+body {
+  font-family: Roboto;
+}
+
+.header-logo  {
+  color: #2196F3;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
+.header-logo span {
+  color: #000;
+}
+
+.header-link {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+.header-link:hover {
+  color: #2196F3;
+}
+
+.header-email {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+.header-email:hover {
+color: #2196F3;
+}
+
+.header-telephone {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+.header-telephone:hover {
+color: #2196F3;
+}
+
+.buttons-button {
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  /* 162.5% */
+  letter-spacing: 0.48px;
+}
+
+.posters-title {
+  color: #212121;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  /* 200% */
+  letter-spacing: 1.08px;
+}
+
+.posters-text {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  /* 187.5% */
+  letter-spacing: 0.48px;
+}
+
+.footer-logo {
+  color: #2196F3;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
+.footer-logo-color {
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
+.footer-adresse {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  /* 171.429% */
+  letter-spacing: 0.42px;
+}
+
+.footer-email {
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  /* 171.429% */
+  letter-spacing: 0.42px;
+}
+
+.footer-telephone {
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  /* 171.429% */
+  letter-spacing: 0.42px;
+}
