@@ -19,6 +19,10 @@ font-family: Roboto;
   line-height: normal;
   letter-spacing: 0.78px;
 }
+.header {
+padding-top: 24px;
+padding-bottom: 25px;
+}
 
 .header-logo span {
   color: #000;
@@ -90,6 +94,10 @@ color: #2196F3;
   line-height: 30px;
   letter-spacing: 0.96px;
 }
+.hero {
+padding-top: 200px;
+padding-bottom: 200px;
+}
 
 .ideas-title {
   color: #212121;
@@ -98,6 +106,10 @@ color: #2196F3;
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+}
+.ideas {
+padding-top: 94px;
+padding-bottom: 94px;
 }
 
 .ideas-text {
@@ -117,6 +129,9 @@ color: #2196F3;
   line-height: normal;
   letter-spacing: 1.08px;
 }
+.services {
+padding-top: 94px;
+}
 
 .team-title {
   color: #212121;
@@ -126,7 +141,10 @@ color: #2196F3;
   line-height: normal;
   letter-spacing: 1.08px;
 }
-
+.team {
+padding-top: 94px;
+padding-bottom: 
+}
 .team-subtitle {
   color: #212121;
   text-align: center;
