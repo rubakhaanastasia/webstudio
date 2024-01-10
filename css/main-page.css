@@ -7,8 +7,9 @@
 
 
 }
+
 body {
-font-family: Roboto;
+  font-family: Roboto;
 }
 
 .header-logo {
@@ -19,14 +20,22 @@ font-family: Roboto;
   line-height: normal;
   letter-spacing: 0.78px;
 }
+
+
+
 .header {
-padding-top: 24px;
-padding-bottom: 25px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.header-list {
+  outline: solid green;
 }
 
 .header-logo span {
-  color: #000;
+  color: #000
 }
+
 
 .header-link {
   color: #212121;
@@ -35,19 +44,23 @@ padding-bottom: 25px;
   line-height: normal;
   letter-spacing: 0.28px;
 }
+
 .header-link:hover {
-color: #2196F3;
+  color: #2196F3;
 }
 
-.header-telephone, .header-email {
+.header-telephone,
+.header-email {
   color: #757575;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.48px;
 }
-.header-email:hover, .header-telephone:hover {
-color: #2196F3;
+
+.header-email:hover,
+.header-telephone:hover {
+  color: #2196F3;
 }
 
 .hero-title {
@@ -58,6 +71,9 @@ color: #2196F3;
   line-height: 60px;
   letter-spacing: 2.64px;
   text-transform: uppercase;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-logo {
@@ -77,6 +93,31 @@ color: #2196F3;
   line-height: normal;
   letter-spacing: 0.78px;
 }
+
+.header-contacts {
+  outline: solid green;
+
+}
+
+.header-container {
+  display: flex;
+
+}
+
+.header-list {
+  display: flex;
+  margin-left: 93px;
+  gap: 50px;
+  align-items: center;
+}
+
+.header-contacts {
+  margin-left: auto;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
 
 .header-contact {
   color: #757575;
@@ -93,10 +134,29 @@ color: #2196F3;
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.96px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 4px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
+
+
 .hero {
-padding-top: 200px;
-padding-bottom: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.hero {
+  background: #2F303A;
 }
 
 .ideas-title {
@@ -107,9 +167,25 @@ padding-bottom: 200px;
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
+
+.ideas-list {
+  display: flex;
+  gap: 30px;
+}
+
+.ideas-item {
+  outline: solid green;
+}
+
+.ideas-title {
+  margin-bottom: 10px;
+}
+
+
 .ideas {
-padding-top: 94px;
-padding-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+
 }
 
 .ideas-text {
@@ -128,9 +204,17 @@ padding-bottom: 94px;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
+  margin-bottom: 50px;
+
 }
+
 .services {
-padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.services-list {
+  display: flex;
+  gap: 30px;
 }
 
 .team-title {
@@ -141,10 +225,37 @@ padding-top: 94px;
   line-height: normal;
   letter-spacing: 1.08px;
 }
-.team {
-padding-top: 94px;
-padding-bottom: 
+
+.team-list {
+  display: flex;
+  gap: 30px;
 }
+
+.team-title {
+  margin-bottom: 50px;
+}
+
+.team-images {
+  margin-bottom: 30px;
+}
+
+.team-subtitle {
+  margin-bottom: 10px;
+}
+
+.team-text {
+  margin-bottom: 30px;
+}
+
+.team-item {
+  outline: solid green;
+}
+
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px
+}
+
 .team-subtitle {
   color: #212121;
   text-align: center;
@@ -162,9 +273,17 @@ padding-bottom:
   line-height: normal;
   letter-spacing: 0.48px;
 }
+
 .footer {
-background: #2F303A;
+  background: #2F303A;
+
 }
+
+.footer-logo {
+  padding-bottom: 20px;
+}
+
+
 .footer-logo {
   color: #2196F3;
   font-family: Raleway;
