@@ -24,8 +24,9 @@ a {
     margin: 0 auto;
     padding: 0 15px;
 }
+
 img {
-display: block;
-width: 100%;
-max-width: 100%;
- }
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}

@@ -282,8 +282,9 @@ body {
 .footer {
   background: #2F303A;
 }
+
 .footer-item {
-margin-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .footer-logo {
@@ -313,7 +314,7 @@ margin-bottom: 9px;
   line-height: 24px;
   letter-spacing: 0.42px;
   margin-bottom: 9px;
-  
+
 }
 
 .footer-email {
