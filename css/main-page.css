@@ -4,8 +4,6 @@
   --text-color: #757575;
   --aditional-color: #FFFFFF;
   --logo-color: #000000;
-
-
 }
 
 body {
@@ -13,7 +11,7 @@ body {
 }
 
 .header-logo {
-  color: #2196F3;
+  color:#2196F3;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
