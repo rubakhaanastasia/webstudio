@@ -92,7 +92,6 @@ body {
 
 .header-container {
   display: flex;
-
 }
 
 .header-list {
@@ -161,12 +160,25 @@ body {
   flex-wrap: wrap;
   margin-top: 56px;
   gap: 30px;
+  padding-bottom: 94px;
 }
 
 .posters-item {
   border: 1px solid #EEE;
   width: calc((100% - (2 * 30px)) / 3);
 }
+
+.posters-item:hover {
+  box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  background: #fff;
+}
+
+.posters-box {
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 20px;
+}
+
 
 .buttons-container {
   padding-top: 94px;

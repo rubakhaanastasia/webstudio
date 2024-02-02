@@ -26,9 +26,6 @@ body {
   padding-bottom: 25px;
 }
 
-.header-list {
-  outline: solid green;
-}
 
 .header-logo span {
   color: #000
@@ -92,10 +89,6 @@ body {
   letter-spacing: 0.78px;
 }
 
-.header-contacts {
-  outline: solid green;
-
-}
 
 .header-container {
   display: flex;
@@ -231,11 +224,6 @@ body {
   height: 120px;
 }
 
-
-.ideas-item {
-  outline: solid green;
-}
-
 .ideas-title {
   margin-bottom: 10px;
 }
@@ -307,12 +295,15 @@ body {
 }
 
 .team-item {
-  outline: solid green;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+    background: #fff;
 }
 
 .team {
   padding-top: 94px;
-  padding-bottom: 94px
+  padding-bottom: 94px;
+  background-color: #F5F4FA;
 }
 
 .team-subtitle {
