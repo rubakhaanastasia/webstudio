@@ -27,10 +27,6 @@ body {
   padding-bottom: 25px;
 }
 
-.header-list {
-  outline: solid green;
-}
-
 .header-logo span {
   color: #000
 }
@@ -93,10 +89,6 @@ body {
   letter-spacing: 0.78px;
 }
 
-.header-contacts {
-  outline: solid green;
-
-}
 
 .header-container {
   display: flex;
@@ -127,23 +119,34 @@ body {
 }
 
 .buttons-button {
-  color: #FFF;
+color: #212121;
   text-align: center;
+  font-family: Roboto;
   font-size: 16px;
+  font-style: normal;
   font-weight: 500;
   line-height: 26px;
   /* 162.5% */
   letter-spacing: 0.48px;
   border-radius: 4px;
+    background: #F5F4FA;
 }
 
-.buttons-buttonn {
-  width: 73px;
-  height: 30px;
-  flex-shrink: 0;
-  display: block;
+.buttons-button:hover {
+color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  /* 162.5% */
+  letter-spacing: 0.48px;
   border-radius: 4px;
-  background: #2196F3;
+    background: #2196F3;
+  
+    /* shadow-middle */
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 
@@ -158,6 +161,10 @@ body {
   flex-wrap: wrap;
   margin-top: 56px;
   gap: 30px;
+}
+.posters-item {
+  border: 1px solid #EEE;
+  width: calc((100% - (2 * 30px)) / 3);
 }
 
 .buttons-container {
