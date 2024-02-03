@@ -25,6 +25,7 @@ body {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  border: #ECECEC solid 2px;
 }
 
 .header-logo span {
@@ -119,16 +120,17 @@ body {
 
 .buttons-button {
   color: #212121;
-  text-align: center;
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 26px;
-  /* 162.5% */
-  letter-spacing: 0.48px;
-  border-radius: 4px;
-  background: #F5F4FA;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 162.5%;
+    letter-spacing: 0.48px;
+    border-radius: 4px;
+    background: #F5F4FA;
 }
 
 .buttons-button:hover {
