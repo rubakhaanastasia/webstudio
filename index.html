@@ -56,7 +56,9 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="hero-button">Замовити послугу</button>
+          <button type="button" class="hero-button" data-modal-open>
+            Замовити послугу
+          </button>
         </div>
       </section>
       <!-- ideas -->
@@ -212,7 +214,7 @@
             </li>
             <li class="team-item">
               <img src="./images/work3.webp" class="team-images" alt="work3" />
-              <div class="modal">
+              <div class="">
                 <h3 class="team-subtitle">Микола Тарасов</h3>
                 <p class="team-text">Marketing</p>
                 <ul class="team-socials">
@@ -387,10 +389,24 @@
           </ul>
         </div>
       </div>
+      <div class="footer-btn">
+        <form action="">
+        <p class="footer-tietle">Підпишіться на розсилку</p>
+        <input type="email" placeholder="E-mail" class="footer-check" />
+         <button type="submit" class="button-footer">
+        Підписатися
+
+        <svg class="footer-icon">
+          <use href="./images/icons.svg#icon-telegram"></use>
+        </svg>
+      </button>
+      </form>
+      </div>
+     
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="backdrop-btn">
+        <button class="backdrop-btn" data-modal-close>
           <svg class="modal-icons">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -426,22 +442,25 @@
           </li>
           <li class="modal-item">
             <p class="modal-subtitel">Коментар</p>
-            <input
-              type="text"
-              class="modal-forms"
-              placeholder="Введіть текст"
-            />
+            <div class="modal-coment">
+              <input
+                type="text"
+                class="modal-forms"
+                placeholder="Введіть текст"
+              />
+            </div>
           </li>
-          <div class="buttons-container">
-            <p>Погоджуюся з розсилкою та приймаю</p>
-            <a href="https://goiteens.com/contract/">Умови договору</a>
-          </div>
-          <div class="modal-button">
-            <button type="submit" class="button-submit">Відправити</button>
-          </div>
         </ul>
+        <div class="buttons-container">
+          <input type="text" class="check" />
+          <p>Погоджуюся з розсилкою та приймаю</p>
+          <a href="https://goiteens.com/contract/">Умови договору</a>
+        </div>
+        <div class="modal-button">
+          <button type="submit" class="button-submit">Відправити</button>
+        </div>
       </div>
     </div>
-    <script></script>
+    <script type="module" src="./js/modal.js"></script>
   </body>
 </html>
