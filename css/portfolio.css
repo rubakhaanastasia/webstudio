@@ -226,6 +226,7 @@ body {
 .posters-item {
   border: 1px solid #EEE;
   width: calc((100% - (2 * 30px)) / 3);
+  position: relative;
 }
 
 .posters-item:hover {
@@ -242,15 +243,40 @@ body {
   padding-right: 24px;
   padding-left: 24px;
   padding-bottom: 20px;
-  background: rgba(33, 150, 243, 0.90);
+}
+
+.posters-overlay {
+  background: var(--accent-color);
   width: 370px;
   height: 294px;
   position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.posters-overlay:hover {
+  opacity: 1;
+}
+
+.posters-titles {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.54px;
+  padding-top: 63px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 63px;
+}
 
 .buttons-container {
   padding-top: 94px;
@@ -407,4 +433,58 @@ body {
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.10);
+}
+
+.footer-tietle {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.footer-form {
+  display: flex;
+}
+
+.footer-check {
+  width: 358px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.30);
+  background: rgba(33, 150, 243, 0.00);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding-bottom: 12px;
+  margin-right: 12px;
+  padding-left: 16px;
+  outline: none;
+}
+
+.button-footer {
+  width: 200px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  /* 187.5% */
+  letter-spacing: 0.96px;
+}
+
+.footer-icon {
+    width: 24px;
+      height: 24px;
+      flex-shrink: 0;
+      fill: #FFF;
 }
