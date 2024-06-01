@@ -1,0 +1,47 @@
+.services-title {
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
+}
+
+.services {
+    padding-bottom: 94px;
+}
+
+.services-list {
+    display: flex;
+    gap: 30px;
+}
+
+.services-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.services-container {
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(47, 48, 58, 0.80);
+    width: 370px;
+    height: 70px;
+}
+
+.services-item {
+    position: relative;
+}

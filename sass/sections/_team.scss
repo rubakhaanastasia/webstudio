@@ -1,0 +1,121 @@
+.team-title {
+    color: #212121;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+}
+
+.team-list {
+    display: flex;
+    gap: 30px;
+}
+
+.team-title {
+    margin-bottom: 50px;
+}
+
+.team-images {
+    margin-bottom: 30px;
+}
+
+.team-subtitle {
+    margin-bottom: 10px;
+}
+
+.team-text {
+    margin-bottom: 30px;
+}
+
+.team-item {
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+    background: #fff;
+}
+
+.team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #F5F4FA;
+}
+
+.team-subtitle {
+    color: #212121;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
+.team-text {
+    color: #757575;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
+.team-icons {
+    width: 20px;
+    height: 20px;
+    fill: var(--text-color);
+}
+
+.team-icons:hover {
+    fill: var(--aditional-color);
+}
+
+.team-icons:focus {
+    fill: var(--aditional-color);
+}
+
+.team-link:hover svg {
+    fill: var(--aditional-color);
+}
+
+.team-link:focus svg {
+    fill: var(--aditional-color);
+}
+
+.team-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-link:hover {
+    background: var(--accent-color);
+}
+
+.team-link:focus {
+    background: var(--accent-color);
+}
+
+.team-socials {
+    display: flex;
+    gap: 10px;
+}
+
+.team-box {
+    padding-bottom: 30px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.preview {
+    padding-bottom: 30px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.desc {
+    padding-bottom: 30px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
