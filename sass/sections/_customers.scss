@@ -29,15 +29,15 @@
 }
 
 .customers-link:hover svg {
-    fill: var(--accent-color);
+    fill: $accent-color;
 }
 
 .customers-link:hover {
-    border-color: var(--accent-color);
+    border-color: $accent-color;
 }
 
 .customers-logo {
-    fill: var(--text-color);
+    fill: $text-color;
     width: 106px;
     height: 60px;
     flex-shrink: 0;
