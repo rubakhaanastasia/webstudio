@@ -127,8 +127,26 @@
     fill: $aditional-color;
   }
 
-  
-&headline {
+  &__button {
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #fff;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 187.5% */
+    letter-spacing: 0.96px;
+  }
+}
+
+.headline {
   color: $aditional-color;
   /* text-align: center; */
   font-family: Roboto;
@@ -139,5 +157,3 @@
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
-}
-

@@ -193,19 +193,6 @@ body {
   padding-right: 32px;
 }
 
-.hero-title {
-  color: #fff;
-  text-align: center;
-  font-size: 44px;
-  font-weight: 900;
-  line-height: 60px;
-  letter-spacing: 2.64px;
-  text-transform: uppercase;
-  width: 696px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .ideas {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -375,24 +362,23 @@ body {
   letter-spacing: 0.48px;
   margin-bottom: 30px;
 }
-.team .team-icons {
+.team__socials {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.team__icons {
   width: 20px;
   height: 20px;
   fill: #757575;
 }
-.team .team-icons:hover {
+.team__icons:hover {
   fill: #FFFFFF;
 }
-.team .team-icons:focus {
+.team__icons:focus {
   fill: #FFFFFF;
 }
-.team .team-link:hover svg {
-  fill: #FFFFFF;
-}
-.team .team-link:focus svg {
-  fill: #FFFFFF;
-}
-.team .team-link {
+.team__link {
   width: 44px;
   height: 44px;
   border-radius: 100px;
@@ -400,16 +386,16 @@ body {
   align-items: center;
   justify-content: center;
 }
-.team .team-link .team-link:hover {
+.team__link:hover svg {
+  fill: #FFFFFF;
+}
+.team__link :focus svg {
+  fill: #FFFFFF;
+}
+.team__link:hover {
   background: #2196F3;
 }
-.team .team-link .team-link:focus {
-  background: #2196F3;
-}
-.team .team-link:hover {
-  background: #2196F3;
-}
-.team .team-link:focus {
+.team__link:focus {
   background: #2196F3;
 }
 .team__icons {
@@ -472,7 +458,7 @@ body {
 .customers__link:hover {
   border-color: #2196F3;
 }
-.customers .customers-logo {
+.customers__logo {
   fill: #757575;
   width: 106px;
   height: 60px;
@@ -592,7 +578,25 @@ body {
   flex-shrink: 0;
   fill: #FFFFFF;
 }
-.footerheadline {
+.footer__button {
+  width: 200px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  /* 187.5% */
+  letter-spacing: 0.96px;
+}
+
+.headline {
   color: #FFFFFF;
   /* text-align: center; */
   font-family: Roboto;

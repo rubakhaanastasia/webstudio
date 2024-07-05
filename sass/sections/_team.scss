@@ -54,29 +54,27 @@
     margin-bottom: 30px;
   }
 
-.team-icons {
+  &__socials {
+    display: flex;
+    gap: 10px;
+   justify-content: center;
+  }
+
+  &__icons {
     width: 20px;
     height: 20px;
     fill: $text-color;
-}
 
-.team-icons:hover {
-    fill: $aditional-color;
-}
+    &:hover {
+      fill: $aditional-color;
+    }
 
-.team-icons:focus {
-    fill: $aditional-color;
-}
+    &:focus {
+      fill: $aditional-color;
+    }
+  }
 
-.team-link:hover svg {
-    fill: $aditional-color;
-}
-
-.team-link:focus svg {
-    fill: $aditional-color;
-}
-
-.team-link {
+  &__link {
     width: 44px;
     height: 44px;
     border-radius: 100px;
@@ -84,13 +82,13 @@
     align-items: center;
     justify-content: center;
 
-.team-link:hover {
-    background: $accent-color;
-}
+    &:hover svg {
+      fill: $aditional-color;
+    }
 
-.team-link:focus {
-    background: $accent-color;
-}
+    :focus svg {
+      fill: $aditional-color;
+    }
 
     &:hover {
       background: $accent-color;
