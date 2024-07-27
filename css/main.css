@@ -19,9 +19,19 @@ a {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 15px;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
 }
 
 img {
@@ -156,21 +166,34 @@ body {
 .hero {
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 118px;
+  padding-bottom: 118px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/fon1.jpg);
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
 }
 .hero__title {
   color: #FFFFFF;
   text-align: center;
-  font-size: 44px;
+  font-size: 26px;
   font-weight: 900;
-  line-height: 60px;
-  letter-spacing: 2.64px;
+  line-height: 162%;
+  letter-spacing: 1.56px;
   text-transform: uppercase;
-  width: 696px;
+  max-width: 696px;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (min-width: 1200px) {
+  .hero__title {
+    font-size: 44px;
+    line-height: 136%;
+    letter-spacing: 2.64px;
+  }
 }
 .hero__button {
   color: #FFFFFF;
@@ -189,13 +212,25 @@ body {
   margin-top: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+@media screen and (min-width: 1200px) {
+  .hero__button {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
 
 .ideas {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .ideas {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 .ideas__list {
   display: flex;

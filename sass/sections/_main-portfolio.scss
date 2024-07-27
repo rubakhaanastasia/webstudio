@@ -22,24 +22,24 @@
     letter-spacing: 0.48px;
     border-radius: 4px;
     background: #f5f4fa;
-  }
 
-  &:hover {
-    color: $aditional-color;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 26px;
-    /* 162.5% */
-    letter-spacing: 0.48px;
-    border-radius: 4px;
-    background: $accent-color;
+    &:hover {
+      color: $aditional-color;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 26px;
+      /* 162.5% */
+      letter-spacing: 0.48px;
+      border-radius: 4px;
+      background: $accent-color;
 
-    /* shadow-middle */
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-      0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+      /* shadow-middle */
+      box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+        0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+    }
   }
 
   &:focus {
