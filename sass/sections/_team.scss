@@ -1,19 +1,31 @@
 .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #f5f4fa;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 
   &__title {
     color: $title-color;
     text-align: center;
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 1.08px;
-    margin-bottom: 50px;
+    letter-spacing: 0.84px;
+    margin-bottom: 30px;
+
+    @media screen and (min-width: 1200px) {
+      font-size: 36px;
+      letter-spacing: 1.08px;
+      margin-bottom: 50px;
+    }
   }
 
   &__list {
+    flex-wrap: wrap;
     display: flex;
     gap: 30px;
   }
@@ -23,6 +35,11 @@
     box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
       0 1px 3px 0 rgba(0, 0, 0, 0.12);
     background: $aditional-color;
+    max-width: 354px;
+
+    @media screen and (min-width: 1200px) {
+      max-width: 270px;
+    }
   }
 
   &__images {
@@ -57,7 +74,7 @@
   &__socials {
     display: flex;
     gap: 10px;
-   justify-content: center;
+    justify-content: center;
   }
 
   &__icons {

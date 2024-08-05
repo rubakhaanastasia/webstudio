@@ -1,6 +1,16 @@
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
 
   &__container {
     display: flex;
@@ -9,10 +19,10 @@
   &__logo {
     color: #2196f3;
     font-family: Raleway;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 0.78px;
+    letter-spacing: 0.72px;
 
     & span {
       color: $logo-color;
@@ -23,13 +33,22 @@
       line-height: normal;
       letter-spacing: 0.78px;
     }
+
+    @media screen and (min-width: 1200px) {
+      font-size: 26px;
+      letter-spacing: 0.78px;
+    }
   }
 
   &__list {
-    display: flex;
+    display: none;
     margin-left: 93px;
     gap: 50px;
     align-items: center;
+
+    @media screen and (min-width: 768px) {
+      display: flex;
+    }
   }
 
   &__link {
@@ -68,9 +87,13 @@
 
   &__contacts {
     margin-left: auto;
-    display: flex;
+    display: none;
     gap: 50px;
     align-items: center;
+
+     @media screen and (min-width: 768px) {
+      display: flex;
+    }
   }
 
   &__telephone,
