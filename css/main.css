@@ -605,6 +605,12 @@ body {
     flex-wrap: wrap;
   }
 }
+@media screen and (min-width: 1200px) {
+  .footer__container {
+    display: flex;
+    flex-direction: row;
+  }
+}
 .footer__adresses {
   margin-right: 70px;
   outline: solid palevioletred;
@@ -667,7 +673,6 @@ body {
   margin-top: 10px;
   margin-right: 93px;
   outline: solid palevioletred;
-  text-align: center;
   padding-bottom: 60px;
 }
 .footer__caption {
@@ -699,9 +704,17 @@ body {
 }
 .footer__form {
   display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .footer__form {
+    flex-direction: row;
+  }
 }
 .footer__check {
-  width: 450px;
+  max-width: 450px;
+  width: 100%;
   height: 50px;
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -720,6 +733,24 @@ body {
 }
 .footer__check:hover {
   border: 1px solid #2196F3;
+}
+.footer__check::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.48px;
+}
+.footer__check::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.48px;
 }
 .footer__icon {
   width: 24px;
@@ -743,6 +774,8 @@ body {
   line-height: 30px;
   /* 187.5% */
   letter-spacing: 0.96px;
+  margin: 0 auto;
+  display: block;
 }
 .footer__btn {
   outline: solid palevioletred;
@@ -759,8 +792,8 @@ body {
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+  text-align: center;
 }
-
 .backdrop {
   display: flex;
   align-items: center;
