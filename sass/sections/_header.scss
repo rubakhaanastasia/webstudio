@@ -88,11 +88,16 @@
   &__contacts {
     margin-left: auto;
     display: none;
-    gap: 50px;
     align-items: center;
 
-     @media screen and (min-width: 768px) {
+    @media screen and (min-width: 768px) {
       display: flex;
+      flex-direction: column;
+    }
+
+    @media screen and (min-width: 1200px) {
+      gap: 50px;
+      flex-direction: row;
     }
   }
 
