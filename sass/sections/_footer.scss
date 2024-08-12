@@ -15,21 +15,25 @@
     @media screen and (min-width: 768px) {
       flex-direction: row;
       flex-wrap: wrap;
+      column-gap: 165px;
+      row-gap: 60px;
+      justify-content: center;
+      align-items: flex-start;
     }
 
     @media screen and (min-width: 1200px) {
       display: flex;
       flex-direction: row;
+      column-gap: 60px;
     }
   }
 
   &__adresses {
     outline: solid palevioletred;
     text-align: center;
-    padding-bottom: 60px;
 
     @media screen and (min-width: 768px) {
-      margin-right: 70px;
+      // margin-right: 70px;
     }
   }
 
@@ -94,9 +98,10 @@
     margin-top: 10px;
     outline: solid palevioletred;
     padding-bottom: 60px;
+    
 
     @media screen and (min-width: 768px) {
-      margin-right: 93px;
+      // margin-right: 93px;
     }
   }
 
@@ -134,7 +139,7 @@
   &__form {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    column-gap: 20px;
 
     @media screen and (min-width: 1200px) {
       flex-direction: row;
