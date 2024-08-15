@@ -3,8 +3,8 @@
   padding-bottom: 16px;
 
   @media screen and (min-width: 768px) {
-    padding-top: 26px;
-    padding-bottom: 26px;
+    padding-top: 21px;
+    padding-bottom: 21px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -14,6 +14,7 @@
 
   &__container {
     display: flex;
+    align-items: center;
   }
 
   &__logo {
@@ -93,6 +94,7 @@
     @media screen and (min-width: 768px) {
       display: flex;
       flex-direction: column;
+      align-items: flex-start;
     }
 
     @media screen and (min-width: 1200px) {
@@ -104,7 +106,7 @@
   &__telephone,
   &__email {
     color: $text-color;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.48px;
