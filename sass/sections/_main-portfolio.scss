@@ -6,6 +6,7 @@
   &__list {
     display: flex;
     gap: 8px;
+    flex-wrap: wrap;
     justify-content: center;
   }
 
@@ -72,8 +73,16 @@
 
   &__item {
     border: 1px solid #eee;
-    width: calc((100% - (2 * 30px)) / 3);
+    width: 100%;
     position: relative;
+
+    @media screen and (min-width: 768px) {
+      width: calc((100% - (2 -- 30px)) / 2);
+    }
+
+    @media screen and (min-width: 1200px) {
+      width: calc((100% - (2 * 30px)) / 3);
+    }
 
     &:hover {
       box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16),
