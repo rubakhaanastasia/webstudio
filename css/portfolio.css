@@ -22,7 +22,6 @@ a {
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
-  outline: solid green;
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -268,7 +267,7 @@ body {
 }
 @media screen and (min-width: 768px) {
   .posters__item {
-    width: calc((100% - (2 -- 30px)) / 2);
+    width: calc((100% - 60px) / 2);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -375,7 +374,6 @@ body {
   }
 }
 .footer__adresses {
-  outline: solid palevioletred;
   text-align: center;
 }
 .footer__logo {
@@ -432,7 +430,6 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 10px;
-  outline: solid palevioletred;
 }
 .footer__caption {
   display: flex;
@@ -444,6 +441,9 @@ body {
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .footer__icons {
   width: 20px;
@@ -545,7 +545,6 @@ body {
 }
 .footer__btn {
   width: 100%;
-  outline: solid palevioletred;
   text-align: center;
 }
 @media screen and (min-width: 1200px) {

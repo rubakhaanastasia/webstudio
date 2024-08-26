@@ -22,7 +22,6 @@ a {
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
-  outline: solid green;
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -221,15 +220,20 @@ body {
   line-height: 162%;
   letter-spacing: 1.56px;
   text-transform: uppercase;
-  max-width: 696px;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (min-width: 1200px) {
+  .hero__title {
+    max-width: 360px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .hero__title {
     font-size: 44px;
     line-height: 136%;
     letter-spacing: 2.64px;
+    max-width: 696px;
   }
 }
 .hero__button {
@@ -624,7 +628,6 @@ body {
   }
 }
 .footer__adresses {
-  outline: solid palevioletred;
   text-align: center;
 }
 .footer__logo {
@@ -681,7 +684,6 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 10px;
-  outline: solid palevioletred;
 }
 .footer__caption {
   display: flex;
@@ -693,6 +695,9 @@ body {
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .footer__icons {
   width: 20px;
@@ -794,7 +799,6 @@ body {
 }
 .footer__btn {
   width: 100%;
-  outline: solid palevioletred;
   text-align: center;
 }
 @media screen and (min-width: 1200px) {
