@@ -49,6 +49,41 @@
             <a href="" class="header__telephone">+380 96 111 11 11</a>
           </li>
         </ul>
+        <button class="header__burger" data-menu-open>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M8 14.6667V12H32V14.6667H8ZM8 21.3333H32V18.6667H8V21.3333ZM8 28H32V25.3333H8V28Z"
+              fill="black"
+            />
+          </svg>
+        </button>
+        <div class="header__menu-box is-hidden" data-menu>
+          <div class="header__sections">
+            <button data-menu-close class="header__close-menu">
+              <svg
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
       </div>
     </header>
     <main>
@@ -596,5 +631,6 @@
       </div> -->
     </div>
     <script type="module" src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
