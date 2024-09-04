@@ -131,46 +131,86 @@
     }
   }
 
+  &__box-menu-child {
+    outline: solid red;
+  }
+
+  &__box-menu {
+    outline: solid green;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+  }
+
   &__menu-box {
     z-index: 1;
-    width: 100%;
-    height: 100%;
-    min-width: 320px;
+    width: 100vw;
+    height: 100vh;
     max-width: 768px;
     background: rgba(0, 0, 0, 0.2);
     position: fixed;
     left: 0px;
     top: 0px;
     backdrop-filter: 1px;
-    background-color: green;
-  }
-
-  &__sections {
-    background-color: green;
-    outline: solid green;
-    min-width: 320px;
-    max-width: 768px;
-    width: 100%;
-    height: 100%;
-    flex-shrink: 0;
-    border-radius: 4px;
-    background: white;
+    background: #fff;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.04),
       0px 2px 4px 0px rgba(0, 0, 0, 0.08), 0px 1px 3px 0px rgba(0, 0, 0, 0.16);
     padding-top: 10px;
     padding-right: 15px;
     padding-left: 40px;
     padding-bottom: 48px;
+    border-radius: 4px;
 
     @media screen and (min-width: 1200px) {
       display: none;
     }
   }
 
-  &__close-menu {
-    background-color: rgba(0, 0, 0, 0);
-    margin-left: auto;
-    display: block;
+  &__menu-linke:hover {
+    color: #2196f3;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.8px;
+  }
+
+  &__menu-linke {
+    color: #212121;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    flex-shrink: 0;
+  }
+
+  &__box {
+    outline: solid red;
+  }
+
+  &__menu-email {
+    color: #2196f3;
+    font-family: Roboto;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.68px;
+  }
+
+  &__menu-telephone {
+    color: #757575;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
   }
 
   &__contact {
@@ -214,6 +254,13 @@
     flex-shrink: 0;
     fill: $text-color;
     margin-right: 10px;
+  }
+
+  // menu
+  &__close-menu {
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: auto;
+    display: block;
   }
 }
 

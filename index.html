@@ -66,22 +66,59 @@
           </svg>
         </button>
         <div class="header__menu-box is-hidden" data-menu>
-          <div class="header__sections">
-            <button data-menu-close class="header__close-menu">
-              <svg
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-                width="40"
-                height="40"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-            </button>
+          <button data-menu-close class="header__close-menu">
+            <svg
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+          <div class="header__box-menu">
+              <ul class="header__menu-list">
+                <li class="header__item">
+                  <a href="./index.html" class="header__menu-linke">Студія</a>
+                </li>
+                <li class="header__item">
+                  <a href="./portfolio.html" class="header__menu-linke"
+                    >Портфоліо</a
+                  >
+                </li>
+                <li class="header__item">
+                  <a href="" class="header__menu-linke">Контакти</a>
+                </li>
+              </ul>
+              <div class="header__box">
+                <ul>
+                  <li>
+                    <a href="" class="header__menu-email">
+                      +38 096 111 11 11
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="header__menu-telephone">
+                      info@devstudio.com
+                    </a>
+                  </li>
+                </ul>
+                <div class="header__box-menu-childs">
+                  <ul class="header__liste">
+                    <li class="header__items">
+                      <a href="" class="header__menu-items"></a>
+                    </li>
+                    <li class="header__items">
+                      <a href="" class="header__menu-items"></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
           </div>
         </div>
       </div>
@@ -561,7 +598,7 @@
 
         <div class="footer__btn">
           <p class="footer__tietle">Підпишіться на розсилку</p>
-          <form action="" class="footer__form">
+          <form class="footer__form">
             <input type="email" placeholder="E-mail" class="footer__check" />
             <button type="submit" class="footer__button">
               Підписатися
