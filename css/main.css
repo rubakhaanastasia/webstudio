@@ -205,6 +205,17 @@ body {
     display: none;
   }
 }
+.header__aside {
+  color: #2196f3;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 122.222% */
+  letter-spacing: 0.36px;
+  display: flex;
+  gap: 10px;
+}
 .header__menu-linke:hover {
   color: #2196f3;
   text-align: center;
