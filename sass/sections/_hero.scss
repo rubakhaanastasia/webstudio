@@ -7,7 +7,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../../images/mobile/background@mobile1x.webp);
+    url(../images/mobile/background@mobile1x.webp);
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -16,14 +16,14 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       )
-      url(../../images/mobile/background@mobile2x.webp);
+      url(../images/mobile/background@mobile2x.webp);
   }
 
   @media screen and (min-width: 768px) {
     background-repeat: no-repeat;
     background-size: cover;
     background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url(../../images/tablet/background@tablet1x.webp);
+      url(../images/tablet/background@tablet1x.webp);
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
@@ -32,7 +32,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(../../images/tablet/background@tablet2x.webp);
+        url(../images/tablet/background@tablet2x.webp);
     }
   }
 
@@ -45,7 +45,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../../images/desktop/background@desktop1x.webp);
+      url(../images/desktop/background@desktop1x.webp);
 
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
@@ -54,7 +54,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(../../images/desktop/background@desktop2x.webp);
+        url(../images/desktop/background@desktop2x.webp);
     }
   }
 
